@@ -56,3 +56,95 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-tool
 - **Save and commit** your work to your GitHub repository.
 
 This setup allows you to work seamlessly with Jupyter notebooks within your Codespace environment.
+
+
+
+
+
+
+
+
+# Syllabus
+
+## Session 1: Python Brush-Up and Setup
+Duration: 4 hours
+
+- Quick Python Brush-Up
+
+- Hands-On: Implementing basic Python constructs (loops, functions, classes) in mini-projects.
+- Demo: Using Python's built-in libraries for data manipulation and file handling.
+Setting Up the Environment
+
+- Hands-On: Setting up a Python development environment (Anaconda, Virtualenv).
+- Demo: Writing and executing Python scripts, using Jupyter notebooks.
+Preparing for LangChain
+
+- Hands-On: Installing required libraries (LangChain, transformers, etc.)
+- Demo: Introduction to API calls and basic integrations using Python.
+
+## Session 2: Introduction to LangChain and Prompting Techniques
+Duration: 4-5 hours
+
+- Introduction to LangChain
+
+- Hands-On: Setting up a LangChain project.
+- Demo: Creating a simple chain to connect multiple LLMs.
+Prompting Techniques
+
+- Hands-On: Writing effective prompts for various tasks (text generation, Q&A).
+- Demo: Testing and refining prompts with different models.
+Advanced Prompt Engineering
+
+- Hands-On: Implementing few-shot learning and context management.
+- Demo: Building a context-aware conversation agent.
+
+## Session 3: Embedding and Vector Databases
+Duration: 4-5 hours
+
+ Understanding Embeddings
+
+ Hands-On: Generating embeddings using different models (BERT, Sentence Transformers).
+ Demo: Visualizing embeddings and understanding their structure.
+
+Introduction to Vector Databases
+
+Hands-On: Setting up a vector database (e.g., Pinecone, FAISS).
+Demo: Storing and retrieving data using embeddings.
+Practical Use Cases
+
+Hands-On: Implementing a simple search engine using embeddings and vector databases.
+Demo: Scaling up the search with more complex queries and datasets.
+
+
+## Session 4: Retrieval-Augmented Generation (RAG)
+Duration: 5-6 hours
+
+Introduction to RAG
+
+Hands-On: Building a basic RAG system using Python.
+Demo: Integrating embeddings and vector databases for knowledge retrieval.
+Data Preparation for RAG
+
+Hands-On: Preparing and cleaning data for embedding and storage.
+Demo: Optimizing data storage for fast retrieval.
+Advanced RAG Scenarios
+
+Hands-On: Implementing different RAG scenarios (e.g., document retrieval, personalized responses).
+Demo: Fine-tuning RAG models for specific tasks.
+
+
+## Session 5: Agents, Workflows, and Automation
+Duration: 5-6 hours
+
+Introduction to Agents
+
+Hands-On: Building simple agents using LangChain.
+Demo: Integrating agents with external APIs for task automation.
+Workflow Automation
+
+Hands-On: Designing and implementing workflows using Python.
+Demo: Automating complex tasks with agents and chains.
+Advanced Automation Techniques
+
+Hands-On: Implementing error handling, logging, and monitoring in workflows.
+Demo: Deploying a fully automated system with real-world applications.
