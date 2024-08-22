@@ -78,6 +78,10 @@
 - Presentation Types & the character #
 
 ### 4.4 Data Structures: 
+#### Container Tyes
+  - Sequences (Strings, Tuples, Bytes, Lists and ByteArrays)
+  - Sets ( set(), frozenset() )
+  - Mapping
 #### 1.1 List :
 - Working ( memory allocation )
 - List Methods
@@ -99,10 +103,7 @@
 - Create using dict comprehension
 - Dictionary methods
 - Loop over a dict
-#### 1.5 Container Tyes
-- Sequences
-- Sets
-- Mapping
+
 
 ### 4.5 Control Structures: Advanced Loops and Conditionals 
 - For loop, while loop, do while
