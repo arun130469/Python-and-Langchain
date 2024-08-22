@@ -32,15 +32,8 @@
 
 ### 2.1 Development Tools Overview (10 minutes)
 - **IDLE:** Integrated Development and Learning Environment.
-- **Anaconda:** A distribution for scientific computing.
-- **Virtualenv:** Managing isolated Python environments.
-
-### 2.2 Hands-On Setup (30 minutes)
-- Installing Python via Anaconda.
-- Setting up and activating Virtualenv.
-- Installing packages using `pip` and `conda`.
-- Writing and running Python scripts.
-- Introduction to Jupyter Notebooks:
+- **Codespace setup** 
+- **Jupyter notebook:**
   - Setting up Jupyter notebooks.
   - Writing and executing Python code in notebooks.
 
