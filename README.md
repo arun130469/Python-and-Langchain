@@ -3,13 +3,11 @@
 
 # Session 1 :Python Brush-Up and Setup
 
-## Duration: 7 hours
-
 ---
 
-### 1. Introduction to Python
+### 1.1. Introduction to Python
 
-#### 1.1 Python Overview (10 minutes)
+#### 1.1.1 Python Overview (10 minutes)
 - **Wide Range of Applications:**
   - Web Development, Data Science, Automation, Game Development, Desktop Applications.
 - **Career Opportunities:**
@@ -19,7 +17,7 @@
 - **Integration Capabilities:**
   - Integrating Python with other languages and platforms (e.g., C/C++, Java, .NET).
 
-#### 1.2 Implementations of Python (20 minutes)
+#### 1.1.2 Implementations of Python (20 minutes)
 - **CPython:** The default implementation of Python.
 - **Jython:** Python for the Java platform.
 - **IronPython:** Python for the .NET framework.
@@ -28,9 +26,9 @@
 
 ---
 
-### 2. Setting Up the Python Development Environment
+### 1.2. Setting Up the Python Development Environment
 
-#### 2.1 Development Tools Overview (10 minutes)
+#### 1.2.1 Development Tools Overview (10 minutes)
 - **IDLE:** Integrated Development and Learning Environment.
 - **Codespace setup** 
 - **Jupyter notebook:**
@@ -39,31 +37,31 @@
 
 ---
 
-### 3. Python Language Fundamentals
+### 1.3. Python Language Fundamentals
 
-#### 3.1 Basic Syntax Rules (10 minutes)
+#### 1.3.1 Basic Syntax Rules (10 minutes)
 - Indentation, variables, and comments.
 - Naming conventions.
 
-#### 3.2 Variables, Data Types, and Type Conversion (15 minutes)
+#### 1.3.2 Variables, Data Types, and Type Conversion (15 minutes)
 - Working with different data types (int, float, string, etc.).
 - Type conversion and casting.
 
-#### 3.3 Input and Output (10 minutes)
+#### 1.3.3 Input and Output (10 minutes)
 - Reading user input.
 - Formatting and printing output.
 
 ---
 
-### 4. Control Structures and Operations
+### 1.4. Control Structures and Operations
 
-#### 4.1 Conditional Statements (15 minutes)
+#### 1.4.1 Conditional Statements (15 minutes)
 - `if`, `elif`, `else` constructs.
 
-#### 4.2 Operators (15 minutes)
+#### 1.4.2 Operators (15 minutes)
 - Arithmetic, comparison, logical, and bitwise operators.
 
-#### 4.3 Strings and String Manipulation (30 minutes)
+#### 1.4.3 Strings and String Manipulation (30 minutes)
 - Strings as read-only arrays
 - String concatenation
 - String internal representation
@@ -77,16 +75,16 @@
 - The 0 (zero) Character
 - Presentation Types & the character #
 
-#### 4.4 Data Structures: 
+#### 1.4.4 Data Structures: 
 ##### Container Tyes
   - Sequences (Strings, Tuples, Bytes, Lists and ByteArrays)
   - Sets ( set(), frozenset() )
   - Mapping
-##### 4.1.1 List :
+##### **List :
 - Working ( memory allocation )
 - List Methods
 - List Comprehension
-##### 4.1.2 Tuples
+##### **Tuples
 - Packing and unpacking tuples
 - Returning tuple from a function
 - Copying a tuple
@@ -94,24 +92,24 @@
 - Comparing Tuples
 - Loop a tuple
 - Tuple in memory
-##### 4.1.3 Sets 
+##### **Sets 
 - Set functions
 - Set Methods
 - Frozenset
-##### 4.1.4 Dictionaries
+##### **Dictionaries
 - Using tuples as keys
 - Create using dict comprehension
 - Dictionary methods
 - Loop over a dict
 
 
-#### 4.5 Control Structures: Advanced Loops and Conditionals 
+#### 1.4.5 Control Structures: Advanced Loops and Conditionals 
 - For loop, while loop, do while
 - Range, Break and Continue
 - Nested loops, comprehensions, and conditionals.
 - Working with complex logical conditions.
 
-#### 4.6 Variable Scopes 
+#### 1.4.6 Variable Scopes 
 - Namespaces: understanding them as dictionaries
 - Scopes
 - Local, global, and nonlocal variables.
@@ -119,9 +117,9 @@
 
 ---
 
-### 5. Functions and Modules
+### 1.5. Functions and Modules
 
-#### 5.1 Functions: Arguments, Return Values, and Lambda Functions (20 minutes)
+#### 1.5.1 Functions: Arguments, Return Values, and Lambda Functions (20 minutes)
 - Defining functions, passing arguments, and returning values.
 - Process Map of a program.
 - Formal vs. Actual Parameters
@@ -131,11 +129,11 @@
 - Function object (__globals__, __name__, __class__, __call__, etc.)
 - Anonymous functions with `lambda`.
 
-#### 5.2 Working with Files 
+#### 1.5.2 Working with Files 
 - Reading and writing files.
 - Working with different file formats.
 
-#### 5.3 Exception Handling 
+#### 1.5.3 Exception Handling 
 - Handling Exceptions
 - Getting the instance of the Exception
 - Raising Exceptions
@@ -145,20 +143,20 @@
 - User Defined Exceptions
 - The finally block
 
-#### 5.4 Collections Module 
+#### 1.5.4 Collections Module 
 - Using specialized container datatypes like `defaultdict`, `deque`, `Counter`, etc.
 
-#### 5.5 Modules and Packages 
+#### 1.5.5 Modules and Packages 
 - Creating and importing custom modules.
 - Understanding Python packages and namespaces.
 - Variations of import statement.
 - How are modules loaded?
 
 ---
-## Session 2 : object-oriented programming and introduction to usecases in python
+# Session 2 : object-oriented programming and introduction to usecases in python
 ### 2.1 Object-Oriented Programming in Python
 
-#### 1.1.1 Classes and Objects 
+#### 2.1.1 Classes and Objects 
 - Class vs. Functions
 - Data Attributes of Classes
 - Function Object vs Method Object
@@ -282,7 +280,7 @@
 ---
 ---
 
-## **Session 3: Introduction to LangChain and Prompting Techniques**
+# **Session 3: Introduction to LangChain and Prompting Techniques**
 
 **Duration:** 4-5 hours
 
@@ -365,7 +363,7 @@
 ---
 ---
 
-### **Session 4: Embedding and Vector Databases**
+# **Session 4: Embedding and Vector Databases**
 
 **Duration:** 4-5 hours
 
@@ -427,7 +425,7 @@
 ---
 ---
 
-### **Session 5: Retrieval-Augmented Generation (RAG)**
+# **Session 5: Retrieval-Augmented Generation (RAG)**
 
 **Duration:** 5-6 hours
 
@@ -498,7 +496,7 @@
 
 
 
-## **Session 6: Agents, Workflows, and Automation**
+# **Session 6: Agents, Workflows, and Automation**
 
 **Duration:** 5-6 hours
 
