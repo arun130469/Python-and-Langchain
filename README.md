@@ -80,11 +80,11 @@
   - Sequences (Strings, Tuples, Bytes, Lists and ByteArrays)
   - Sets ( set(), frozenset() )
   - Mapping
-##### **List :
+##### **List :**
 - Working ( memory allocation )
 - List Methods
 - List Comprehension
-##### **Tuples
+##### **Tuples :**
 - Packing and unpacking tuples
 - Returning tuple from a function
 - Copying a tuple
@@ -92,11 +92,11 @@
 - Comparing Tuples
 - Loop a tuple
 - Tuple in memory
-##### **Sets 
+##### **Sets :**
 - Set functions
 - Set Methods
 - Frozenset
-##### **Dictionaries
+##### **Dictionaries :**
 - Using tuples as keys
 - Create using dict comprehension
 - Dictionary methods
