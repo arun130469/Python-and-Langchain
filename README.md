@@ -1,6 +1,4 @@
 
-# Syllabus
-
 # Session 1 :Python Brush-Up and Setup
 
 ---
@@ -153,7 +151,7 @@
 - How are modules loaded?
 
 ---
-# Session 2 : object-oriented programming and introduction to usecases in python
+# Session 2 : Advance concepts in python
 ### 2.1 Object-Oriented Programming in Python
 
 #### 2.1.1 Classes and Objects 
