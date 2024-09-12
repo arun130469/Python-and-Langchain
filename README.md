@@ -167,8 +167,7 @@
 - Calling methods/functions within an instance or a class.
 - Creating classes dynamically.
 - Metaclass
-- 
-
+  
 #### 2.1.2 Inheritance 
 - Single and multiple inheritance.
 - Overriding methods.
