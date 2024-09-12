@@ -271,7 +271,6 @@
 - **Working with Cloud Services:**
   - Using Python with cloud platforms like AWS, Azure.
 
----
 
 ### 2.6 Summary and Q&A (20 minutes)
 - Recap of the key topics covered in the session.
