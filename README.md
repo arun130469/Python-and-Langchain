@@ -1,11 +1,12 @@
   
-# Session 1 :Python Brush-Up and Setup
+# Session 1 :Python Brush-Up and Setup 
 
+**Duration :** 6-7 hours
 ---
 
 ### 1.1. Introduction to Python
 
-#### 1.1.1 Python Overview (10 minutes)
+#### 1.1.1 Python Overview 
 - **Wide Range of Applications:**
   - Web Development, Data Science, Automation, Game Development, Desktop Applications.
 - **Career Opportunities:**
@@ -26,7 +27,7 @@
 
 ### 1.2. Setting Up the Python Development Environment
 
-#### 1.2.1 Development Tools Overview (10 minutes)
+#### 1.2.1 Development Tools Overview 
 - **IDLE:** Integrated Development and Learning Environment.
 - **Codespace setup** 
 - **Jupyter notebook:**
@@ -37,15 +38,15 @@
 
 ### 1.3. Python Language Fundamentals
 
-#### 1.3.1 Basic Syntax Rules (10 minutes)
+#### 1.3.1 Basic Syntax Rules 
 - Indentation, variables, and comments.
 - Naming conventions.
 
-#### 1.3.2 Variables, Data Types, and Type Conversion (15 minutes)
+#### 1.3.2 Variables, Data Types, and Type Conversion 
 - Working with different data types (int, float, string, etc.).
 - Type conversion and casting.
 
-#### 1.3.3 Input and Output (10 minutes)
+#### 1.3.3 Input and Output 
 - Reading user input.
 - Formatting and printing output.
 
@@ -53,13 +54,13 @@
 
 ### 1.4. Control Structures and Operations
 
-#### 1.4.1 Conditional Statements (15 minutes)
+#### 1.4.1 Conditional Statements 
 - `if`, `elif`, `else` constructs.
 
-#### 1.4.2 Operators (15 minutes)
+#### 1.4.2 Operators 
 - Arithmetic, comparison, logical, and bitwise operators.
 
-#### 1.4.3 Strings and String Manipulation (30 minutes)
+#### 1.4.3 Strings and String Manipulation 
 - Strings as read-only arrays
 - String concatenation
 - String internal representation
@@ -117,7 +118,7 @@
 
 ### 1.5. Functions and Modules
 
-#### 1.5.1 Functions: Arguments, Return Values, and Lambda Functions (20 minutes)
+#### 1.5.1 Functions: Arguments, Return Values, and Lambda Functions 
 - Defining functions, passing arguments, and returning values.
 - Process Map of a program.
 - Formal vs. Actual Parameters
@@ -151,7 +152,8 @@
 - How are modules loaded?
 
 ---
-# Session 2 : Advance concepts in python
+# Session 2 : Advance concepts in python 
+**Duration :** 4-5 hours
 ### 2.1 Object-Oriented Programming in Python
 
 #### 2.1.1 Classes and Objects 
@@ -270,7 +272,7 @@
   - Using Python with cloud platforms like AWS, Azure.
 
 
-### 2.6 Summary and Q&A (20 minutes)
+### 2.6 Summary and Q&A
 - Recap of the key topics covered in the session.
 - Open floor for questions and clarification.
 ---
@@ -278,11 +280,11 @@
 
 # **Session 3: Introduction to LangChain and Prompting Techniques**
 
-**Duration:** 4-5 hours
+**Duration:** 5-6 hours
 
 ---
 
-#### **3.1 Introduction to LangChain (30-45 minutes)**
+#### **3.1 Introduction to LangChain**
 
 - **3.1.1 Overview of LangChain:**
   - What is LangChain and why use it?
@@ -295,64 +297,64 @@
   - Prompts: Inputs that guide LLMs toward desired outputs.
   - Models: Types of LLMs that LangChain can interface with.
 
-- **3.1.3 Hands-On Activity: Setting Up a LangChain Project (15 minutes)**
+- **3.1.3 Hands-On Activity: Setting Up a LangChain Project**
   - Step-by-step guide to setting up a new LangChain project environment.
   - Installing necessary packages and dependencies.
   - Configuring API keys and services (e.g., OpenAI, Cohere).
 
-#### **3.2 Demo: Creating a Simple Chain to Connect Multiple LLMs (30-45 minutes)**
+#### **3.2 Demo: Creating a Simple Chain to Connect Multiple LLMs**
 
 - **3.2.1 Creating a Simple Chain:**
   - Understanding the flow of data between multiple LLMs.
   - Building a basic chain to connect two or more LLMs for sequential tasks.
   - Practical example: Constructing a chain for content summarization followed by text generation.
 
-- **3.2.2 Hands-On Exercise: Implementing a Basic Chain (20 minutes)**
+- **3.2.2 Hands-On Exercise: Implementing a Basic Chain**
   - Participants create a simple chain using the LangChain library.
   - Experiment with chaining different LLMs to handle tasks like translating text, generating summaries, and creating questions.
 
-#### **3.3 Introduction to Prompting Techniques (45 minutes - 1 hour)**
+#### **3.3 Introduction to Prompting Techniques**
 
 - **3.3.1 Foundations of Prompting:**
   - What are prompts and why are they crucial?
   - Key elements of an effective prompt: Context, Instructions, and Expected Output.
   - Different types of prompts: Text generation, Q&A, summarization, data extraction, etc.
 
-- **3.3.2 Hands-On Exercise: Writing Effective Prompts (30 minutes)**
+- **3.3.2 Hands-On Exercise: Writing Effective Prompts**
   - Practice writing prompts for various tasks:
     - Text generation: Crafting creative and informative content.
     - Q&A: Designing prompts for factual responses.
     - Summarization: Creating prompts for concise summaries.
   - Participants refine prompts through trial and error with different models.
 
-- **3.3.3 Demo: Testing and Refining Prompts with Different Models (15 minutes)**
+- **3.3.3 Demo: Testing and Refining Prompts with Different Models**
   - Demonstration of how different models respond to various prompt types.
   - Techniques to adjust prompts for better performance and accuracy.
   - Using prompt tuning methods to handle ambiguous or complex tasks.
 
-#### **3.4 Advanced Prompt Engineering (1 - 1.5 hours)**
+#### **3.4 Advanced Prompt Engineering **
 
 - **3.4.1 Advanced Techniques in Prompt Design:**
   - Overview of few-shot learning: Using multiple examples in prompts to guide LLMs.
   - Context management: Maintaining relevance and coherence in multi-turn conversations.
   - Handling user-specific and context-specific nuances.
 
-- **3.4.2 Hands-On Activity: Implementing Few-shot Learning and Context Management (45 minutes)**
+- **3.4.2 Hands-On Activity: Implementing Few-shot Learning and Context Management**
   - Participants implement few-shot learning prompts for specific tasks (e.g., text classification, decision making).
   - Practice techniques to manage context in long conversations or multi-turn dialogues.
 
-#### **3.5 Demo: Building a Context-Aware Conversation Agent (30-45 minutes)**
+#### **3.5 Demo: Building a Context-Aware Conversation Agent **
 
 - **3.5.1 Creating a Context-Aware Agent:**
   - Combining chains, agents, and prompts for dynamic interactions.
   - Designing an agent that adapts responses based on conversation history and context.
   - Key challenges: Memory management, avoiding repetition, maintaining engagement.
 
-- **3.5.2 Live Demo: Context-Aware Agent in Action (20 minutes)**
+- **3.5.2 Live Demo: Context-Aware Agent in Action**
   - Showcasing a conversation agent that uses advanced prompt engineering to handle various user inputs.
   - Discussing real-world applications of context-aware agents (customer service bots, virtual assistants, etc.).
 
-- **3.5.3 Q&A and Wrap-up (10-15 minutes):**
+- **3.5.3 Q&A and Wrap-up :**
   - Open floor for questions, clarifications, and discussions.
   - Summary of key takeaways and additional resources for further learning.
 
@@ -365,7 +367,7 @@
 
 ---
 
-#### **4.1 Understanding Embeddings (45 minutes - 1 hour)**
+#### **4.1 Understanding Embeddings**
 
 - **4.1.1 Overview of Embeddings:**
   - What are embeddings and their role in Natural Language Processing (NLP)?
@@ -381,34 +383,36 @@
   - Visualizing high-dimensional embeddings using techniques like PCA (Principal Component Analysis) and t-SNE (t-Distributed Stochastic Neighbor Embedding).
   - Interpreting embedding clusters and distances.
 
-#### **4.2 Introduction to Vector Databases (30-45 minutes)**
+#### **4.2 Introduction to Vector Databases**
 
 - **4.2.1 Overview of Vector Databases:**
   - What are vector databases, and why use them?
   - Key concepts: Vector similarity, approximate nearest neighbors (ANN), indexing.
   - Commonly used vector databases: Pinecone, FAISS, Milvus, etc.
 
-- **4.2.2 Hands-On Activity: Setting Up a Vector Database (30 minutes)**
+- **4.2.2 Hands-On Activity: Setting Up a Vector Database**
   - Step-by-step guide to setting up a vector database like Pinecone or FAISS.
   - Basic configuration and connection to your Python environment.
 
-- **4.2.3 Demo: Storing and Retrieving Data Using Embeddings (15 minutes)**
+- **4.2.3 Demo: Storing and Retrieving Data Using Embeddings**
   - Storing embeddings in a vector database.
   - Performing simple retrieval tasks using vector similarity search.
   - Practical example: Finding similar documents or sentences.
 
-#### **4.3 Practical Use Cases (1 - 1.5 hours)**
+#### **4.3 Practical Use Cases**
 
-- **4.3.1 Implementing a Simple Search Engine Using Embeddings and Vector Databases (45 minutes)**
+- **4.3.1 Implementing a Simple Search Engine Using Embeddings and Vector Databases**
   - Building a search engine that leverages embeddings for similarity-based searches.
   - End-to-end implementation: Data preprocessing, embedding generation, storing, and searching.
 
-- **4.3.2 Demo: Scaling Up the Search with More Complex Queries and Datasets (30 minutes)**
+- **4.3.2 Demo: Scaling Up the Search with More Complex Queries and Datasets**
   - Handling larger datasets and optimizing for performance.
   - Demonstrating complex search queries: Multi-vector searches, filtering, and ranking.
   - Real-world use cases: Semantic search, recommendation systems, and clustering.
+- **4.3.2 Document Embedding and searching**
+    - querying the data in document as context.
 
-#### **4.4 Q&A and Wrap-up (10-15 minutes)**
+#### **4.4 Q&A and Wrap-up**
 
 - **4.4.1 Open Floor for Questions, Clarifications, and Discussions:**
   - Addressing participant queries and providing additional insights.
@@ -427,7 +431,7 @@
 
 ---
 
-#### **5.1 Introduction to RAG (45 minutes - 1 hour)**
+#### **5.1 Introduction to RAG**
 
 - **5.1.1 Overview of Retrieval-Augmented Generation (RAG):**
   - What is RAG, and why use it?
@@ -443,41 +447,41 @@
   - Demonstrating how embeddings and vector databases (e.g., Pinecone, FAISS) are used in the retrieval component of a RAG system.
   - Practical example: Retrieving relevant documents or context for a given query.
 
-#### **5.2 Data Preparation for RAG (1 - 1.5 hours)**
+#### **5.2 Data Preparation for RAG**
 
 - **5.2.1 Importance of Data Preparation in RAG:**
   - Why data preparation is crucial for effective RAG systems.
   - Types of data needed for RAG: Structured vs. unstructured data.
   - Key considerations: Data quality, relevance, and diversity.
 
-- **5.2.2 Hands-On Activity: Preparing and Cleaning Data for Embedding and Storage (45 minutes)**
+- **5.2.2 Hands-On Activity: Preparing and Cleaning Data for Embedding and Storage**
   - Techniques for data cleaning and preprocessing (e.g., removing noise, normalizing text).
   - Preparing data for embedding generation: Tokenization, formatting, and embedding techniques.
   - Storing data in vector databases for fast retrieval.
 
-- **5.2.3 Demo: Optimizing Data Storage for Fast Retrieval (15-20 minutes)**
+- **5.2.3 Demo: Optimizing Data Storage for Fast Retrieval**
   - Demonstration of techniques for optimizing data storage in vector databases.
   - Indexing strategies for faster search and retrieval.
   - Practical example: Setting up a highly performant retrieval system.
 
-#### **5.3 Advanced RAG Scenarios (2 - 2.5 hours)**
+#### **5.3 Advanced RAG Scenarios**
 
 - **5.3.1 Overview of Advanced RAG Scenarios:**
   - Different use cases and scenarios for advanced RAG applications.
   - Examples: Document retrieval, personalized response generation, domain-specific knowledge augmentation.
 
-- **5.3.2 Hands-On Activity: Implementing Different RAG Scenarios (1 - 1.5 hours)**
+- **5.3.2 Hands-On Activity: Implementing Different RAG Scenarios**
   - Building RAG systems for specific use cases:
     - Document retrieval: Finding and generating summaries from large datasets.
     - Personalized responses: Tailoring responses based on user profiles or preferences.
   - Configuring retrieval modules and generation models for specific tasks.
 
-- **5.3.3 Demo: Fine-Tuning RAG Models for Specific Tasks (30-45 minutes)**
+- **5.3.3 Demo: Fine-Tuning RAG Models for Specific Tasks**
   - Demonstrating how to fine-tune a RAG model for a particular task or domain.
   - Using domain-specific data to improve retrieval and generation performance.
   - Practical example: Fine-tuning a RAG model for customer support or medical consultation.
 
-#### **5.4 Q&A and Wrap-up (15-20 minutes)**
+#### **5.4 Q&A and Wrap-up**
 
 - **5.4.1 Open Floor for Questions, Clarifications, and Discussions:**
   - Addressing participant queries and providing additional insights.
@@ -498,7 +502,7 @@
 
 ---
 
-#### **6.1 Introduction to Agents (45 minutes - 1 hour)**
+#### **6.1 Introduction to Agents**
 
 - **6.1.1 Overview of Agents:**
   - What are agents in the context of LangChain and AI-driven systems?
@@ -514,38 +518,38 @@
   - Demonstration of integrating agents with external APIs (e.g., weather data, email services).
   - Practical example: Automating email notifications based on data changes or external triggers.
 
-#### **6.2 Workflow Automation (1 - 1.5 hours)**
+#### **6.2 Workflow Automation**
 
 - **6.2.1 Overview of Workflow Automation:**
   - What is workflow automation, and why is it important?
   - Key components: Triggers, actions, conditions, and agents.
   - Use cases: Streamlining business processes, reducing manual intervention, and improving efficiency.
 
-- **6.2.2 Hands-On Activity: Designing and Implementing Workflows Using Python (45 minutes)**
+- **6.2.2 Hands-On Activity: Designing and Implementing Workflows Using Python**
   - Building a workflow from scratch using Python and LangChain.
   - Practical examples: Automating repetitive tasks, such as data processing or report generation.
   - Incorporating agents to handle decision-making within workflows.
 
-- **6.2.3 Demo: Automating Complex Tasks with Agents and Chains (30 minutes)**
+- **6.2.3 Demo: Automating Complex Tasks with Agents and Chains**
   - Demonstration of automating a complex, multi-step task using agents and chains.
   - Real-world example: Automating a data pipeline or customer onboarding process.
 
-#### **6.3 Advanced Automation Techniques (2 - 2.5 hours)**
+#### **6.3 Advanced Automation Techniques**
 
 - **6.3.1 Advanced Techniques in Automation:**
   - Overview of advanced automation methods: Error handling, logging, and monitoring.
   - Best practices for robust and scalable automation.
 
-- **6.3.2 Hands-On Activity: Implementing Error Handling, Logging, and Monitoring in Workflows (1 - 1.5 hours)**
+- **6.3.2 Hands-On Activity: Implementing Error Handling, Logging, and Monitoring in Workflows**
   - Techniques for adding error handling and logging to workflows.
   - Implementing monitoring tools to track workflow performance and detect issues.
   - Practical example: Creating a robust automation system that handles failures gracefully.
 
-- **6.3.3 Demo: Deploying a Fully Automated System with Real-World Applications (30-45 minutes)**
+- **6.3.3 Demo: Deploying a Fully Automated System with Real-World Applications**
   - Demonstrating the deployment of an end-to-end automated system.
   - Real-world application examples: Customer service bots, automated reporting systems, and AI-driven decision-making.
 
-#### **6.4 Q&A and Wrap-up (15-20 minutes)**
+#### **6.4 Q&A and Wrap-up**
 
 - **6.4.1 Open Floor for Questions, Clarifications, and Discussions:**
   - Addressing participant queries and providing additional insights.
