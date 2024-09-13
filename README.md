@@ -509,12 +509,12 @@
   - Types of agents: Task-oriented, conversational, and reactive agents.
   - Use cases: Automating tasks, decision-making, and handling complex workflows.
 
-- **6.1.2 Hands-On Activity: Building Simple Agents Using LangChain (30-45 minutes)**
+- **6.1.2 Hands-On Activity: Building Simple Agents Using LangChain**
   - Step-by-step guide to creating a simple agent using the LangChain library.
   - Defining agent behaviors: How agents perceive inputs and make decisions.
   - Practical example: Building an agent to automate simple tasks like scheduling or data retrieval.
 
-- **6.1.3 Demo: Integrating Agents with External APIs for Task Automation (15 minutes)**
+- **6.1.3 Demo: Integrating Agents with External APIs for Task Automation**
   - Demonstration of integrating agents with external APIs (e.g., weather data, email services).
   - Practical example: Automating email notifications based on data changes or external triggers.
 
