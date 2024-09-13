@@ -1,4 +1,4 @@
-
+  
 # Session 1 :Python Brush-Up and Setup
 
 ---
