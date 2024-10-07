@@ -14,10 +14,16 @@ Typically made of many many mechine code instructions. Each machine code instruc
 # How does a program run
 1. CPU does "LOAD" and "EXECUTE" - load fetches the op-code and operands (if any) from memory and then execute executes. 
 
-`LD A, 01H` --> `00111110``00000001`
+`LD A, 01H` --> `00111110` `00000001`
 
 In RAM
 `3E` <-- 0000H
 `01` <-- 0001H
+
+
+The compiled machine code is loaded in memory when the program executes. All the op-codes and operands are loaded in contigous memory locations. The CPU then maintains a program counter that is a register holding the memory location of the instruction that needs to be executed next. 
+
+So the op-codes and operands are loaded sequentially in RAM for the whole program. So executing an exe simply loads all its machine code into RAM in a contiguous space. 
+
 
 

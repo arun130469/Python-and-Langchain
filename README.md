@@ -1,66 +1,80 @@
   
-# Session 1 :Python Brush-Up and Setup 
 
-**Duration :** 6-7 hours
----
-
-### 1.1. Introduction to Python
-
-#### 1.1.1 Python Overview 
+### 1 Python Overview 
 - **Wide Range of Applications:**
   - Web Development, Data Science, Automation, Game Development, Desktop Applications.
 - **Career Opportunities:**
   - Roles such as Python Developer, Data Scientist, Automation Engineer.
 - **Extensive Libraries and Frameworks:**
   - Overview of Python's standard library and popular third-party libraries.
-- **Integration Capabilities:**
-  - Integrating Python with other languages and platforms (e.g., C/C++, Java, .NET).
+- **Compilation Process:**
+  - Compiling Source code to Byte code (.pyc) and then using the interpreter from bytecode to execution using PVM
+- **Various implementation of Python**
 
-#### 1.1.2 Implementations of Python (20 minutes)
-- **CPython:** The default implementation of Python.
-- **Jython:** Python for the Java platform.
-- **IronPython:** Python for the .NET framework.
-- **PyPy:** A faster implementation of Python with JIT compilation.
-- **Python.NET:** Embedding Python in .NET applications.
-
----
-
-### 1.2. Setting Up the Python Development Environment
-
-#### 1.2.1 Development Tools Overview 
+### 2 Set up environment
 - **IDLE:** Integrated Development and Learning Environment.
-- **Codespace setup** 
+- **Github account:** 
+- **Fork repository:**
+- **Using code cpaces:** 
+- **Installing required extensions:**
 - **Jupyter notebook:**
   - Setting up Jupyter notebooks.
   - Writing and executing Python code in notebooks.
+- **:** 
 
----
 
-### 1.3. Python Language Fundamentals
-
-#### 1.3.1 Basic Syntax Rules 
+### 3 Basic Syntax Rules 
 - Indentation, variables, and comments.
 - Naming conventions.
+- Using the debugger
+- Stdio interactivity.
+- Simple and basic programs
+- Variables declarations etc. 
 
-#### 1.3.2 Variables, Data Types, and Type Conversion 
-- Working with different data types (int, float, string, etc.).
+### 4 Variables, Data Types, and Type Conversion 
+- Working with different built-in data types (int, float, string, etc.).
 - Type conversion and casting.
+- Interning
 
-#### 1.3.3 Input and Output 
-- Reading user input.
-- Formatting and printing output.
+### 5 Control structures 
+- if-then-else
+- Looping
+- For loop, while loop, do while
+- Range, Break and Continue
+- Nested loops, comprehensions, and conditionals.
+- Working with complex logical conditions.
 
----
 
-### 1.4. Control Structures and Operations
+### 6 Comosite data types
+- Packing and unpacking tuples
+- Returning tuple from a function
+- Copying a tuple
+- Reversing a Tuple
+- Comparing Tuples
+- Loop a tuple
+- Tuple in memory
+- Set functions
+- Set Methods
+- Frozenset
+- Using tuples as keys
+- Create using dict comprehension
+- Dictionary methods
+- Loop over a dict
+- Using specialized container datatypes like `defaultdict`, `deque`, `Counter`, etc.
 
-#### 1.4.1 Conditional Statements 
-- `if`, `elif`, `else` constructs.
 
-#### 1.4.2 Operators 
-- Arithmetic, comparison, logical, and bitwise operators.
+### 7 Functions
+- Defining functions, passing arguments, and returning values.
+- Process Map of a program.
+- Formal vs. Actual Parameters
+- Annotations
+- Positional and Keyword Arguments
+- Variable number of arguments
+- Function object (__globals__, __name__, __class__, __call__, etc.)
+- Anonymous functions with `lambda`.
 
-#### 1.4.3 Strings and String Manipulation 
+
+### 8 String formatting 
 - Strings as read-only arrays
 - String concatenation
 - String internal representation
@@ -74,89 +88,21 @@
 - The 0 (zero) Character
 - Presentation Types & the character #
 
-#### 1.4.4 Data Structures: 
-##### Container Tyes
-  - Sequences (Strings, Tuples, Bytes, Lists and ByteArrays)
-  - Sets ( set(), frozenset() )
-  - Mapping
-##### **List :**
-- Working ( memory allocation )
-- List Methods
-- List Comprehension
-##### **Tuples :**
-- Packing and unpacking tuples
-- Returning tuple from a function
-- Copying a tuple
-- Reversing a Tuple
-- Comparing Tuples
-- Loop a tuple
-- Tuple in memory
-##### **Sets :**
-- Set functions
-- Set Methods
-- Frozenset
-##### **Dictionaries :**
-- Using tuples as keys
-- Create using dict comprehension
-- Dictionary methods
-- Loop over a dict
 
-
-#### 1.4.5 Control Structures: Advanced Loops and Conditionals 
-- For loop, while loop, do while
-- Range, Break and Continue
-- Nested loops, comprehensions, and conditionals.
-- Working with complex logical conditions.
-
-#### 1.4.6 Variable Scopes 
-- Namespaces: understanding them as dictionaries
-- Scopes
-- Local, global, and nonlocal variables.
-- Scope resolution and the `global` keyword.
-
----
-
-### 1.5. Functions and Modules
-
-#### 1.5.1 Functions: Arguments, Return Values, and Lambda Functions 
-- Defining functions, passing arguments, and returning values.
-- Process Map of a program.
-- Formal vs. Actual Parameters
-- Annotations
-- Positional and Keyword Arguments
-- Variable number of arguments
-- Function object (__globals__, __name__, __class__, __call__, etc.)
-- Anonymous functions with `lambda`.
-
-#### 1.5.2 Working with Files 
-- Reading and writing files.
-- Working with different file formats.
-
-#### 1.5.3 Exception Handling 
-- Handling Exceptions
-- Getting the instance of the Exception
-- Raising Exceptions
-- Another way to get the instance of the Exception
-- Nesting Try…Except
-- try-except-else
-- User Defined Exceptions
-- The finally block
-
-#### 1.5.4 Collections Module 
-- Using specialized container datatypes like `defaultdict`, `deque`, `Counter`, etc.
-
-#### 1.5.5 Modules and Packages 
+### 9 Modules and packages
 - Creating and importing custom modules.
 - Understanding Python packages and namespaces.
 - Variations of import statement.
 - How are modules loaded?
 
----
-# Session 2 : Advance concepts in python 
-**Duration :** 4-5 hours
-### 2.1 Object-Oriented Programming in Python
 
-#### 2.1.1 Classes and Objects 
+### 10 Namespaces and scopes
+- Namespaces: understanding them as dictionaries
+- Scopes
+- Local, global, and nonlocal variables.
+- Scope resolution and the `global` keyword.
+
+### 11 Classes and OOPS
 - Class vs. Functions
 - Data Attributes of Classes
 - Function Object vs Method Object
@@ -167,52 +113,54 @@
 - Calling methods/functions within an instance or a class.
 - Creating classes dynamically.
 - Metaclass
-  
-#### 2.1.2 Inheritance 
+
+### 12 Classes and OOPS continued
 - Single and multiple inheritance.
 - Overriding methods.
 - Check instance and class inheritance.
-
-#### 2.1.3 Polymorphism 
 - Polymorphic functions and operator overloading.
-
-#### 2.1.4 Encapsulation and Abstraction 
 - Using private and protected members.
 - Abstract base classes.
 
-#### 2.1.5 Magic Methods and Operator Overloading
+### 13 Exception Handling
+- Handling Exceptions
+- Getting the instance of the Exception
+- Raising Exceptions
+- Another way to get the instance of the Exception
+- Nesting Try…Except
+- try-except-else
+- User Defined Exceptions
+- The finally block
+
+### 14 File I/O
+- Reading and writing files.
+- Working with different file formats.
+
+### 15 DUNDER & other useful stuff
 - Special methods like `__init__`, `__str__`, `__len__`, and custom operator overloading.
-- Static Method
-- Class Method
-- Nuances about Instance Methods
-- Class super
-- Private Attributes
-
----
-
-### 2.2 Advanced Python Concepts
-
-#### 2.2.1 Iterators and Generators 
-- Implementing custom iterators.
-- Using generators for lazy evaluation.
-
-#### 2.2.2 Decorators 
-- Creating and using decorators to modify function behavior.
-
-#### 2.2.3 Context Managers 
+- `__new__()`
+- `__call__()`
 - Using `with` statements and implementing custom context managers.
 
-#### 2.2.4 Multithreading and Multiprocessing 
+
+### 15 Multithreading
 - Basics of parallel processing.
 - Working with the `threading` and `multiprocessing` modules.
 
-#### 2.2.5 Asyncio for Asynchronous Programming 
+### 16 Async IO
 - Introduction to asynchronous programming in Python.
 - Using `async` and `await` for non-blocking code.
 
----
+### 17 Decorators
+- Creating and using decorators to modify function behavior.
 
-### 2.3 Working with External Libraries
+### 18 Interators and generators
+- Implementing custom iterators.
+- Using generators for lazy evaluation.
+
+
+
+
 
 #### 2.3.1 Installing Packages with pip 
 - Installing and managing external libraries.
