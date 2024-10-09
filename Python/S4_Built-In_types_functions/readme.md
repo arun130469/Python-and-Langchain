@@ -1,0 +1,11 @@
+- Everything is an object (`id()`, `type()`)
+- `__bool__()` and `__len__()`
+- Boolean Type (`bool`)
+- Truth Value
+- Boolean operators
+- Numbers (`int`, `float`, `imaginary`)
+- How numbers are managed internally in CPython
+- Comparison operators and functions
+- Bitwise operators
+- Text sequence - `str`
+- Interning
