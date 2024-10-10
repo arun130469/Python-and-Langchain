@@ -5,4 +5,3 @@
 - `for` statement
 - `try` statement
 - `with` statement
-- `match` statement
