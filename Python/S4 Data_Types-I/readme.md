@@ -1,3 +1,5 @@
+# Data Types - I
+
 - Everything is an object (`id()`, `type()`)
 - Numbers (`int`, `float`, `imaginary`)
 - How numbers are managed internally in CPython
