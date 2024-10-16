@@ -12,6 +12,3 @@
   - len()
   - range()
   - repr()
-
-- function is different from a method.
--
